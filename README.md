@@ -5,6 +5,7 @@ This package of MATLAB functions simulates LiCl and MgCl2 permeation across ion-
 In addition to a basic MATLAB license, the non-linear fitting requires the following toolboxes:  
 - Optimization Toolbox  
 - Statistics and Machine Learning Toolbox  
+
 The code was developed in MATLAB R2023b.  
 
 ## Quick Use Case
@@ -25,6 +26,7 @@ Included are scripts to:
 - Calculate interfacial equilibrium using the Ideal Donnan model: Donnan_LiMgCl.m  
 - Simulate a permeability experiment for given experimental conditions: Perm_Sim.m  
 - Non-linearly solve for the apparent diffusivities of each ion in the experiment: D_Solve.m  
+
 Other files include:  
 - A formatted data template to allow for easy import of experimental permeability data and accompanying cell / membrane information: Permeability_Data.xlsx  
 - A DEMO folder containing example data that can be fit using this simulation: Permeability_Data_CR61Example.xlsx  
